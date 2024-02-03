@@ -31,3 +31,26 @@ then it defaults to the anonymous value. So, it's essentially the same as
 specifying crossorigin="anonymous". In this case, the browser fetches the script
 without sending any extra information along with the request.
 ```
+
+5. 1. React is a JavaScript library for building user interfaces.
+   2. ReactDOM is a package that provides methods for rendering React components in the DOM (Document Object Model) and managing their lifecycle.
+
+6. 1) react.development.js:
+
+This file is intended for development purposes.
+
+It includes additional development-specific features such as helpful warning messages, debugging tools, and error messages with detailed information.
+
+The code is not minified or optimized for size, making it larger and slower to load compared to the production version.
+
+It is suitable for development environments where debugging and error handling are prioritized over performance.
+
+2. react.production.js:
+
+This file is intended for production use.
+
+It does not include development-specific features like warning messages or debugging tools, resulting in a smaller file size and faster loading times.
+
+The code is minified and optimized for size, reducing the file size to improve performance in production environments.
+
+It is recommended to use the production version in live production environments to ensure optimal performance and reduced bandwidth usage.
