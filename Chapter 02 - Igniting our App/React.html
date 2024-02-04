@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        This will render on the website because React will only render elements
+        inside the root ID
+    </h1>
+    <div id="root">
+        <h1>This will be replaced with React rendering elements.</h1>
+        This will be replaced with React rendering
+        elements.
+    </div>
+    <h1 id="root">
+        React will only render elements at the first root
+    </h1>
+
+</body>
+
+
+<script type="text/babel">
+    import ReactDOM from 'react-dom'
+    import react from 'react'
+    function MyApp() {
+        return <h1>Hello, world!</h1>;
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<MyApp />);
+</script>
+
+</html>

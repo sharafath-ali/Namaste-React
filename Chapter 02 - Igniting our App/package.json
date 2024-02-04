@@ -1,0 +1,20 @@
+{
+  "name": "chapter-02---igniting-our-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "React.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "@parcel/transformer-babel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
